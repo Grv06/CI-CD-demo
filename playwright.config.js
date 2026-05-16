@@ -9,6 +9,6 @@ module.exports = defineConfig({
         ['list'],
         ['junit', {outputFile : 'results.xml'}],
         ['html', {outputFolder : 'playwright-report', open : 'never'}],
-        ['allure-playwright', {outputFolder : 'allure-results'}]
+        ['allure-playwright', { resultsDir: 'allure-results' }]
     ],
 })
