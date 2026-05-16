@@ -77,7 +77,7 @@ jobs:
       # Generate Allure Report 
       - name: Generate Allure Report
         if: always()
-        run: npx allure generate ./allure-results --output ./allure-report
+        run: npx allure generate ./allure-results --output ./allure-report --clean
 
       # For Debugging
       - name: Check Allure Results
