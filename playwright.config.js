@@ -10,5 +10,6 @@ module.exports = defineConfig({
         ['junit', {outputFile : 'results.xml'}],
         ['html', {outputFolder : 'playwright-report', open : 'never'}],
         ['allure-playwright', { resultsDir: 'allure-results' }]
+        
     ],
 })
