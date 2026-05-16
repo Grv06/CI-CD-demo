@@ -91,7 +91,7 @@ jobs:
         with:
           name: allure-report
           path: allure-report
-          retention-days: 7
+          retention-days: 6
 
       # Upload raw test results (screenshots, videos, traces)
       - name: Upload Test Results (Debugging)
